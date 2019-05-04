@@ -1,0 +1,155 @@
+
+#include <iostream>
+using namespace std;
+
+int main ()
+{
+	int m, d, y;
+	cout <<"Please enter with digits only \n";
+	cout << "1-12 only \n";
+	cout <<"Enter month: \n";
+	cin >> m;
+	cout << "Enter day: \n";
+	cin >> d;
+	cout <<"Enter year: \n";
+	cin >> y;
+switch (m)
+{
+	case 1:
+	if((d<1) && (d>31))
+	{
+		cout<<" Invalid date Please try again. \n";
+	}
+	else
+	{
+		cout<<"January" << d<<"," << y;
+	}
+
+	break;
+
+case 2:
+	if(d<1 && d>28)
+	{
+		cout<<" Invalid date Please try again. \n";
+	}
+	else
+	{
+		cout<<"February" << d<<"," << y;
+	}
+break;
+	
+case 3:
+	if(d<1 && d>31)
+	{
+		cout<<" Invalid date Please try again. \n";
+	}
+		
+	else
+	{
+		cout<<"March" << d<<"," << y;
+	}
+break;
+
+case 4:
+	if(d<1 && d>30)
+	{
+		cout<<" Invalid date Please try again. \n";
+	}
+	else
+	{
+		cout<<"April" << d<<"," << y;
+	}
+break;
+
+case 5:
+	if(d<1 && d>31)
+	{
+		cout<<" Invalid date Please try again. \n";
+	}
+	else
+	{
+		cout<<"May " << d<<"," << y;
+	}
+break;
+
+case 6:
+	if(d<1 && d>30)
+	{
+		cout<<" Invalid date Please try again. \n";
+	}
+	else
+	{
+		cout<<"June " << d<<"," << y;
+	}
+break;
+
+case 7:
+	if(d<1 && d>31)
+	{
+		cout<<" Invalid date Please try again. \n";
+	}
+	else
+	{
+		cout<<"July " << d<<"," << y;
+	}
+break;
+
+case 8:
+	if(d<1 && d>30)
+	{
+		cout<<" Invalid date Please try again. \n";
+	}
+	else
+	{
+		cout<<"August " << d<<"," << y;
+	}
+break;
+
+case 9:
+	if(d<1 && d>30)
+	{
+		cout<<" Invalid date Please try again. \n";
+	}
+	else
+	{
+		cout<<"September " << d<<"," << y;
+	}
+break;
+
+case 10:
+	if(d<1 && d>31)
+	{
+		cout<<" Invalid date Please try again. \n";
+	}
+	else
+	{
+		cout<<"October " << d<<"," << y;
+	}
+break;
+
+case 11:
+	if(d<1 && d>30)
+	{
+		cout<<" Invalid date Please try again. \n";
+	}
+	else
+	{
+		cout<<"November " << d<<"," << y;
+	}
+break;
+
+case 12:
+	if(d<1 && d>31)
+	{
+		cout<<" Invalid date Please try again. \n";
+	}
+	else
+	{
+		cout<<"December " << d<<"," << y;
+	}
+break;
+
+}
+cin.get();
+}
+
